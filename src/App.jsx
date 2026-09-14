@@ -1,0 +1,35 @@
+import { BrowserRouter } from "react-router-dom";
+
+import Header from "./components/Header/Header";
+// import SectionDivider from "./components/SectionDivider/SectionDivider";
+
+import Home from "./Pages/Home/Home";
+import Skills from "./Pages/Skills/Skills";
+import Projects from "./Pages/Projects/Projects";
+import Contact from "./Pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+
+function App() {
+  return (
+    <BrowserRouter>
+
+      <Header />
+
+      <Home />
+
+
+      <Skills />
+
+
+      <Projects />
+
+
+      <Contact />
+
+      <Footer/>
+
+    </BrowserRouter>
+  );
+}
+
+export default App;
