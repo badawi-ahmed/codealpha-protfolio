@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
 import Header from "./components/Header/Header";
-// import SectionDivider from "./components/SectionDivider/SectionDivider";
 
 import Home from "./Pages/Home/Home";
 import Skills from "./Pages/Skills/Skills";

@@ -76,7 +76,7 @@ const projects = [
     badge: "Completed",
     accent: "#14b8a6",
     image: `${import.meta.env.BASE_URL}images/Protfolio.jpeg`,
-    link: "#",
+    link: "https://badawi-ahmed.github.io/Badawi-Protfolio/",
   },
 ];
 
